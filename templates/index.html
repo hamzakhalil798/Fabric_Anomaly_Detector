@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fabric Anomaly Detector</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    form {
+      margin-top: 50px;
+    }
+    input[type="file"] {
+      padding: 12px 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fabric Anomaly Detector</h1>
+    <form action="upload_image" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*">
+      <br><br>
+      <input type="submit" value="Upload Image">
+    </form>
+  </div>
+</body>
+</html>

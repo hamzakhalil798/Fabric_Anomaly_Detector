@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Define the styles for the images */
+      img {
+        width: 18%; /* Half the width of the container */
+        margin: 0 auto; /* center the images horizontally */
+        display: block; /* display the images as block elements */
+        border: solid 5px #ccc; /* add a border around the images */
+        border-radius: 10px; /* add rounded corners to the images */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* add a subtle drop shadow */
+        transition: transform .2s; /* add a transition for hover effect */
+      }
+      /* Define styles for the text */
+      p {
+        text-align:center; /* align the text to center */
+        font-size: 18px; /* set the font size to 18px */
+        font-weight: bold; /* set the font weight to bold */
+        color: #000; /* set the text color to white */
+        text-shadow: 1px 1px #fff; /* add a subtle text shadow */
+        margin: 10px; /* set the margin */
+      }
+
+      /* Define a hover effect for the images */
+      img:hover {
+        transform: scale(1.05); /* increase the size of the image slightly on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <img src="static/uploads/{{ input_name }}" alt="First Image">
+    <p>Input Image</p>
+    <img src="static/predictions/{{ image_name }}" alt="Second Image">
+    <p>Detected Anomaly</p>
+  </body>
+</html>
