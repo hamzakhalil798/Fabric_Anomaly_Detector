@@ -1,6 +1,6 @@
 # Fabric_Anomaly_Detector
-This is A Flask App that uses DRÆM (Discriminatively Trained Reconstruction Embedding for Surface Anomaly Detection) is a method for detecting anomalies in surfaces, such as defects or damage, using a combination of reconstruction and classification techniques.
-For now its trained on only one class that is 'Fabric', but I'll be adding all the classes present in MVtec Dataset.
+This is A Flask App that uses DRÆM (Discriminatively Trained Reconstruction Embedding for Surface Anomaly Detection) for detecting anomalies in surfaces, such as defects or damage, using a combination of reconstruction and classification techniques.
+For now the app caters only one class that is 'Fabric', but I'll be adding all the classes present in MVtec Dataset.
 
 # Model Files
 
