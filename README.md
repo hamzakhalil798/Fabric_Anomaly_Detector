@@ -12,4 +12,4 @@ Model files can be downloaded from [here](https://drive.google.com/file/d/1yMa-q
 # Results
 
 ![](https://github.com/hamzakhalil798/Fabric_Anomaly_Detector/blob/main/images/result_1.PNG)
-![](https://github.com/hamzakhalil798/Fabric_Anomaly_Detector/blob/main/images/result_2PNG)
+![](https://github.com/hamzakhalil798/Fabric_Anomaly_Detector/blob/main/images/result_2PNG)s
