@@ -6,7 +6,7 @@ For now its trained on only one class that is 'Fabric', but I'll be adding all t
 
 Please download the model files and place inside static/models/
 
-Model files can be downloaded from [here]()
+Model files can be downloaded from [here](https://drive.google.com/file/d/1yMa-qX1MlyfolIVEWguZLxHwbBxcPHTg/view?usp=sharing)
 
 
 # Results
